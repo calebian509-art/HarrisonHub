@@ -7,7 +7,7 @@ const { spawn } = require('child_process');
 const { Readable } = require('stream');
 
 const PORT = Number(process.env.PORT || 8787);
-const HOST = process.env.HOST || '127.0.0.1';
+const HOST = process.env.HOST || '0.0.0.0';
 const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
 const HTML_FILE = path.join(__dirname, 'HarrisonHub_Portal_V12.html');
 
