@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "node HarrisonHub_AI_SERVER_SECURE_V12.js"
+  }
+}
